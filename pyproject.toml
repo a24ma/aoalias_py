@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aoalias"
+version = "0.0.1"
+authors = [{ name = "a24ma", email = "a24ooka3567@gmail.com" }]
+description = "Awesomely well-Organized alias link resolver"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: BSD License 2.0",
+    "Operating System :: Linux OS or Mac OS",
+]
+
+[project.urls]
+"Github" = "https://github.com/a24ma/aoalias"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
